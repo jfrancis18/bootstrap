@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+  }
+
+.container {padding: 40px}
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#6ab446;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: black;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .header {
+    background-image: url('gom.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }  
+
+
+
+
+
+
+  .one {background-color: white}
+  .two {background-color: lightgoldenrodyellow}
+  .three {background-color: lightyellow}
+  .four {background-color: whitesmoke}
+  .five {background-color: white}
+
+  .jumbotron{
+    background-image: url("fresh-organic-yellow-fruits-over-green-background-WXQU74N.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+    text-align: center;
+  }
+
+  .jumbotron h1{
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 5rem;
+    text-shadow: 2px 2px 5px black;
+    font-weight: 800;
+  }
+
+  h4{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+  }
